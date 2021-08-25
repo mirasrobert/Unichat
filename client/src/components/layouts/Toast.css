@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.show {
+  display: inline-block;
+}
+
+.toast-container {
+  position: relative;
+  z-index: 100;
+}
+
+.toast {
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+
+.toast p {
+  margin: 0;
+  padding: 0;
+}
+
+.toast .fas {
+  font-size: 1.2rem;
+}
+
+/* SUCCESS */
+.toast-icon-success .fas {
+  color: #47d764 !important;
+}
+
+.toast-success {
+  border-left: 5px solid #47d764 !important;
+}
+
+.toast-error {
+  border-left: 5px solid #cc0a3d !important;
+}
+
+/* .toast {
+  background: #fff !important;
+  color: #333 !important;
+} */
+
+#toast-container>.toast-success {
+  background-color: #47d764 !important;
+}
+
+/* DANGER */
+.toast-icon-danger .fas {
+  color: #cc0a3d !important;
+}
+
+.toast-danger {
+  border-left: 5px solid #cc0a3d !important;
+}
